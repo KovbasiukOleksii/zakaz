@@ -1,0 +1,287 @@
+@media only screen and (min-width: 1024px) {
+    .order_item:hover {
+        box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.25);
+        cursor: pointer;
+    }
+}
+
+@media only screen and (max-width: 1330px) {
+    .big_title {
+        display: none;
+    }
+    
+    .order_title-mark .light_title {
+        display: block;
+    }
+    
+    .order_title-bayfb .light_title, 
+    .order_title-confirmed .light_title, 
+    .order_title-wait .light_title, 
+    .order_title-lacks .light_title {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 1190px) {
+    .order_item {
+        height: 40px;
+    }
+    
+    .order_item-status .not_send,
+    .order_item-status .send,
+    .order_item-status .accepted,
+    .order_item-status .done {
+        height: 38px;
+    }
+    
+    .order_item-id {
+        min-width: 110px;
+    }
+    
+    .order_title-id {
+        width: 95px;
+    }
+    
+    .order_item-mark,
+    .order_title-mark {
+        width: 11%;
+    }
+    
+    .order_title-mark {
+        width: 10%;
+    }
+    
+    .order_item-bayfb,
+    .order_item-confirmed,
+    .order_item-wait,
+    .order_item-lacks {
+        min-width: 108px;
+    }
+    
+    .order_item-bayfb
+    
+    
+    .order_item-status,
+    .order_title-status {
+        width: 5px;
+    }
+    
+    .order_item-bayfb .pso,
+    .order_item-confirmed .pso,
+    .order_item-wait .pso,
+    .order_item-lacks .pso {
+        font-size: 11px;
+    }
+    
+    .order_item-id .subtitle {
+        font-size: 11px;
+    }
+
+}
+
+@media only screen and (max-width: 960px) {
+    .order {
+        padding-left: 0;
+    }
+}
+
+@media only screen and (max-width: 893px) {
+    .order_filter {
+        font-size: 12px;
+    }
+    
+    .order_item {
+        font-size: 12px;
+    }
+    
+    .order_title {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 820px) {
+    
+    .order_new {
+        display: none;
+    }
+    
+    .order_new-mobile {
+        display: block;
+    }
+    
+    .order .order_items {
+        height: 80vh;
+    }
+    
+    footer {
+        display: flex;
+    }
+    
+    .mark_order {
+        margin-bottom: 10px;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .order {
+        width: 100%;
+    }
+    
+    .order_item {
+        border-top: 1px solid rgb(200, 200, 200);
+        border-bottom: 1px solid rgb(200, 200, 200);
+        margin-bottom: 5px;
+    }
+    
+    .order_item:hover {
+        box-shadow: none;
+    }
+    
+    .order h1 {
+        padding-left: 5px;
+    }
+    
+    .mark_order {
+        padding-left: 5px;
+    }
+    
+    .order_title-mobile {
+        display: flex;
+    }
+    
+    .order_title-mobile {
+        padding: 0 16px;
+    }
+    
+    .order_title {
+        display: none;
+    }
+    
+    .type_order {
+        display: none;
+    }
+    
+    .order_item-menu {
+        display: none!important;
+    }
+    
+    .order .order_items {
+        height: 78vh;
+    }
+    
+    .order_item {
+        position: none;
+        height: 85px;
+        padding: 1px 0;
+        font-size: 14px;
+    }
+    
+    .order_item-status,
+    .order_item-id,
+    .order_item-date,
+    .order_item-mark,
+    .order_item-bayfb,
+    .order_item-confirmed,
+    .order_item-wait,
+    .order_item-lacks,
+    .order_item-track {
+        display: none;
+    }
+    
+    .order_new-mobile {
+        right: 20px;
+    }
+    
+    .order_item_mobile {
+        display: flex;
+    }
+    
+}
+
+@media only screen and (max-width: 625px) {
+    .mobile_bay-fb {
+        width: 100%;
+    }
+    
+    .order_item {
+        height: 73px;
+    }
+    
+    .order .order_items {
+        height: 68.4vh;
+    }
+    
+    .order_item_mobile-main-fb span {
+        display: block;
+        margin-top: -6px;
+        font-size: 10px;
+    }
+    
+    .order_item_mobile-main-fb .fb {
+        margin-top: -3px;
+    }
+    
+    .order_item_mobile-main-fb .not_fb {
+        margin-top: -3px;
+        
+    }
+    
+    .order_item_mobile-main-fb p {
+        width: 100px;
+    }
+    
+
+    .order_item_mobile-main-fb p {
+        width: 100%;
+    }
+    
+    .order_new-mobile {
+        bottom: 9%;
+        right: 5px;
+    }
+    
+    .mark_order {
+        padding-left: 0;
+    }
+    
+    
+
+}
+
+@media only screen and (max-width: 481px) {
+    
+    .date_filter {
+        display: block;
+    }
+    
+    .order_item_mobile {
+        margin: 0 3px;
+    }
+    
+    .order_item_mobile-main-fb span {
+        font-size: 8px;
+    }
+    
+    .order {
+        margin-top: 40px;
+    }
+    
+    .order_filter {
+        margin-bottom: 10px;
+    }
+    
+    .order_filter-item form {
+        text-align: left;
+        margin-left: 5px;
+    }
+
+}
+
+
+
+
+
+
+
+
